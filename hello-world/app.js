@@ -1,3 +1,5 @@
+
+
 // const axios = require('axios')
 // const url = 'http://checkip.amazonaws.com/';
 let response;
@@ -17,6 +19,7 @@ let response;
 exports.lambdaHandler = async (event, context) => {
     try {
         // const ret = await axios(url);
+        OscillatorNode.get
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
